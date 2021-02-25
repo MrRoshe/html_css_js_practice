@@ -1,0 +1,82 @@
+.button_h35_w110 {
+    height: 35px;
+    width: 110px;
+}
+
+.hr_mt0_mb0 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.text_fs14 {
+    font-size: 14px;
+}
+
+.disabled-dark {
+    color: rgba(0, 0, 0, 0.9);
+    pointer-events: none;
+    cursor: default;
+}
+
+.mt-6 {
+    margin-top: 64px;
+}
+
+.mt-11 {
+    margin-top: 118px;
+}
+
+.w-178 {
+    width: 178px;
+}
+
+.like {
+    width: 24px;
+    height: 24px;
+    background: url("../bootstrap-icons/heart.svg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.unlike {
+    width: 24px;
+    height: 24px;
+    background: url("../bootstrap-icons/heart-fill.svg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.delete {
+    width: 24px;
+    height: 24px;
+    background: url("../bootstrap-icons/x.svg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.geo-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.calendar-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.vertical-text-middle {
+    vertical-align: middle;
+}
+
+.footer-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Role choice</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/general.css">
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-light bg-white">
+        <a class="navbar-brand" href="#"><h2 class="my-0">Invite</h2></a>
+
+        <div class="dropdown">
+            <a class="dropdown-toggle text-decoration-none text-dark" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dobrelya Ruslan
+            </a>
+
+            <div class="dropdown-menu dropdown-menu-right text-center text_fs15" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Профиль</a>
+                <a class="dropdown-item" href="#">Редактирование</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Выйти</a>
+            </div>
+        </div>
+    </nav>
+
+    <hr class="hr_mt0_mb0">
+</div>
+
+<div class="container">
+    <form class="mt-5" action="#">
+        <h4 class="mb-3">Пользователи</h4>
+
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Login</th>
+                <th scope="col">Role</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>MrRoshe</td>
+                <td>
+                    <div class="d-flex justify-content-start">
+                        <select class="custom-select custom-select-sm w-50">
+                            <option value="#" selected>User</option>
+                            <option value="#">Company</option>
+                            <option value="#">Admin</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Tatarin</td>
+                <td>
+                    <div class="d-flex justify-content-start">
+                        <select class="custom-select custom-select-sm w-50">
+                            <option value="#" selected>User</option>
+                            <option value="#">Company</option>
+                            <option value="#">Admin</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Hyperaktivist</td>
+                <td>
+                    <div class="d-flex justify-content-start">
+                        <select class="custom-select custom-select-sm w-50">
+                            <option value="#" selected>User</option>
+                            <option value="#">Company</option>
+                            <option value="#">Admin</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <button type="submit" class="btn btn-outline-dark rounded-0 mt-2">Сохранить</button>
+    </form>
+</div>
+
+<footer class="container mt-5 mb-1 text-center">
+    <hr>
+    <p>© 2020 Company, Inc.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/general.js"></script>
+</body>
+</html>
